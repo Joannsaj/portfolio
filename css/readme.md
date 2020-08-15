@@ -7,5 +7,5 @@ I used HTML and CSS to create this. For HTML I ensured to use most of the common
 ## Support and contact details
 If you run into any issues or have questions, ideas or concerns. I encourage you to contact me at joannsaj@gmail.com or make a contribution to the code.
 ### License
-MIT [license] (LICENSE)
+[MIT license](LICENSE)
 Copyright (c) 2020 Joan Nansamba
