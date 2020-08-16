@@ -1,7 +1,7 @@
 # My Portfolio
 #### By Joan Nansamba
 ## Description
-This is my portfolio. It is basically things about me like what I like, who I am. And also has links to other websites I have made.
+This is my portfolio. It is basically things about me like what I like, who I am. And also has links to other websites I have made such as to a resort, travel agency, and animal shelter.
 ## Technologies Used
 I used HTML and CSS to create this. For HTML I ensured to use most of the common tags while for CSS I used the stylesheet to style my work.
 ## Support and contact details

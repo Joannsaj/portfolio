@@ -15,14 +15,14 @@ ol {
     border: 2px solid black;
 }
 p {
-    color: darkred;
+    color: darkgreen;
 }
 .background {
     border: 2px solid black;
 }
-@media screen and (min-width: 400px) and (max-width: 700px){
+@media screen and (min-width: 400px) {
     body {
-        background-color: black;
-        color: white;
+        background-color: lightyellow;
+        color: darkblue;
     }
 }
