@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1><span>Joan Nansamba</span>.</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <!-- <div class="header-text">
+            <p><coder></p>
+            <h1>Hi, I'm <span> Joan.</span></h1>
+        </div> -->
+    </div>
+</div> 
+<!-- about section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="about-col-1">
+                <img src="logo.jpg" >
+            </div> -->
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A process-oriented individual with critical attention to data and its purpose in corporate growth and improvement. I am
+                    experienced in interpreting and analyzing data, hence seeking to leverage my data analytical skills to increase company
+                    performance and continuously grow within a fast-paced environment.
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages:</span>HTML, CSS, JavaScript, Python, Java, C#</li>
+                        <li><span>Frameworks:</span>React, Django, Angular</li>
+                        <li><span>Database management:</span>PostgreSQL, MySQL, Apache Cassandra</li>
+                        <li><span>CRM Software:</span>Zendesk, Salesforce</li>
+                        <li><span>Other:</span>Heroku, GitHub, Git, Command line and Bash scripting, Figma, Visual Studio, Intellij IDEA, Linux(Ubuntu)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Junior Database Administrator</span><br>Provided on-site database and system support.
+                            <br>Provided assistance to staff in regard to approving and revoking access to data and client information to the respective
+                            parties.
+                            <br>Monitored and collected statistical information as well as provided reporting on capacity and system performance.
+                            <br>Made recommendations based on statistics to maintain and improve capacity and system performance
+                            <br>Monitored the system and acted upon system and application automated alerts.
+                            <br>Performed diagnostics, testing, and troubleshooting of software, operating systems as well as database issues in regard
+                            to correcting the installation, configuration, or data problems.
+                            <br>Planned and performed software installation, configuration as well as upgrade.
+                            <br>Performed manual switch to redundant system/database components, in case of system failure.
+                            <br>Updated employee data in the systems
+                        </li>
+                        <li><span>Inventory Management Associate</span><br>Tracked inventory maintenance.
+                            <br>Compiled inventory reports and acquired additional skills in the visualization of data as well as Microsoft Excel.
+                            <br>Assisted in controlling flows of equipment and supplies.
+                            <br>Reported to upper management and advised on process improvements.
+                            <br>Developed loss mitigation processes and protocols.
+                            <br>Filled in shadowing for new inventory workers.
+                            <br>Addressed problems and challenges to upper management with corresponding reports.
+                            <br>Forecasted future inventory requirements.
+                        </li>
+                        <li><span>Freelance Developer</span><br>Successfully redesigned the existing company website working as the scrum master using React, Node.js and MySQL.
+                            <br>Developed team communication and information for meetings using various channels like google meet and slack.
+                            <br>Worked in an agile-driven environment to effectively meet client timelines and make use of available resources.
+                            
+                        </li>
+                        <li><span>Junior Customer Service Representative</span><br>Answered calls and responded to customer inquiries through emails.
+                            <br>Developed skills through using new technologies in response to customer inquiries.
+                            <br>Adjusted to expected KPI measures with an average of 98% in productivity and quality in my responses.
+                            <br>Welcomed and participated in shadowing new joiners as well as brainstormed effective responses through logical thinking
+                            with team members.
+                            <br>Participated in new skill evaluation to supplement already possessed skills with constant feedback from team leads and
+                            career counsellors.
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>BSc.Computer Engineering</span><br>Maintaining a progressive GPA.
+                            <br>Completing team and individual assignments in given timelines.
+                            <br>Conducting team meetings in order to assess blockers within the different parts of the projects at hand.
+                            <br>Creating presentations and working closely with Microsoft Office suite and Google Apps to complete development
+                            processes.
+                            <br>Joining clubs for social networking and expanding my knowledge on other relevant skills.</li>
+                        <li><span>Software Development Course</span><br>Built a strong foundation for Front-end and Back-end programming skills and self-study.
+                            <br>Built weekly independent user-friendly projects in various programming languages from beginner to intermediate level with
+                            an average of 90% overall in performance.
+                            <br>Participated in pair programming to conduct peer-to-peer lessons, as well as conducted morning and evening
+                            standups(meetings) over Google-meet, with attendance updates over Slack channels.
+                            <br>Worked hand in hand with my Team leads with constant feedback which eventually gained me access to work with highly
+                            valued clientele, entrusted with producing effective results in the team with deadlines for final presentations.
+                            <br>Adapted to a fast-paced diverse environment with a lot of practice through self-study as well as picked up new skills from
+                            teammates through team projects.
+                            <br>I advanced my knowledge in creating, maintaining and manipulating data in databases as well as hosting my work on
+                            GitHub and Heroku</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+ <!--services  -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web design</h2>
+                <p>Design of web applictions and redesign of already existing web applications</p>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Database</h2>
+                <p>Making database tables and analysis/querying of db tables</p>
+            </div>
+            <div>
+                <i class="fas fa-app-store"></i>
+                <h2>Testing</h2>
+                <p>Testing modules in web applications using the various testing methods and tools</p>
+            </div>
+            
+        </div>
+    </div>
+ </div>
+ <!-- portfolio -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/akan.png" >
+                <div class="layer">
+                    <h3>Akan name</h3>
+                    <p>A website to help you find out your akan name.</p>
+                    <a href="https://joannsaj.github.io/akan/"><i class=" fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <!-- <div class="work">
+                <img src="images/pizza.png" >
+                <div class="layer">
+                    <h3>Pizza heat!</h3>
+                    <p>An application to look at the pizza menu and order pizza from pizza heat.</p>
+                    <a href="#"><i class=" fas fa-external-link-alt"></i></a>
+                </div>
+            </div> -->
+            <div class="work">
+                <img src="images/delani.png" >
+                <div class="layer">
+                    <h3>Delani design</h3>
+                    <p>Template design for delani studio.</p>
+                    <a href="https://joannsaj.github.io/Delani/"><i class=" fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- contact -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub=title">Contact me</h1>
+                <p><i class="fas fa-paper-plane"></i>nsajjoan@gmail.com</p>
+                <div class="social-icons">
+                    <a href="www.linkedin.com/in/ 
+                    joan-nansamba-23ba52221
+                    "><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Joannsaj?tab=repositories"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+                <a href="JOAN_SEBALAMU_NANSAMBA_RESUME.pdf"  download ="JOAN_SEBALAMU_NANSAMBA_RESUME.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © DigitalResume.  All rights reserved</p>
+    </div>
+ </div>
+ 
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script> 
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0"
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzxdfJ7m54ZOp_PEBx9Mcrd4LzqtxWidnip_04OdPitIl4vKfB7sSeMNxc1lY5-s5xn/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
